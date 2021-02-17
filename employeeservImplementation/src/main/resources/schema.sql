@@ -1,0 +1,29 @@
+DROP TABLE IF EXISTS EMPLOYEE;
+
+
+CREATE TABLE EMPLOYEE(
+id INT PRIMARY KEY,
+first_name VARCHAR(50),
+last_name VARCHAR(50),
+dob VARCHAR(50),
+line1 VARCHAR(50),
+line2 VARCHAR(50),
+zipcode INT,
+city VARCHAR(50),
+state VARCHAR(50),
+country VARCHAR(50)
+);
+
+
+--CREATE TABLE EMPLOYEE(
+--id INT PRIMARY KEY,
+--first_name VARCHAR(50) NOT NULL,
+--last_name VARCHAR(50) NOT NULL,
+--dob VARCHAR(50) NOT NULL,
+--line1 VARCHAR(50) NOT NULL,
+--line2 VARCHAR(50),
+--zipCode INT NOT NULL,
+--city VARCHAR(50) NOT NULL,
+--state VARCHAR(50) NOT NULL,
+--country VARCHAR(50) NOT NULL,
+--);
